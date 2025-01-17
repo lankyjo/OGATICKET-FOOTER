@@ -29,8 +29,8 @@ function App() {
   <div className='flex flex-col gap-14 md:flex-row md:gap-2 lg:gap-0 md:items-start md:border-b-2 md:border-gray-400 pb-6'>
     <div id="socialLinksSection" className=" w-full flex flex-col gap-8">
 
-<div id="logo" className='space-y-3'>
-<div>
+<div id="logo" className='space-y-5'>
+<div className='space-y-4'>
 <a href="/">
     <img src={logo} className='max-w-20' />
   </a>
@@ -42,7 +42,7 @@ function App() {
 </div>
 
 <div id="socialLinks" className='space-y-3'>
-  <span>Let's connect</span>
+  <span className='font-semibold capitalize text-xl'>Let's connect</span>
   <div className='flex gap-2'>
     <a href="/" className='text-4xl md:hover:text-secondary md:duration-500'><FaFacebookF /></a>
     <a href="/" className='text-4xl md:hover:text-secondary md:duration-500' ><FaXTwitter /></a>
@@ -52,7 +52,7 @@ function App() {
 </div>
 
 <div id="appLinks" className='space-y-3'>
-  <span>Download Our Apps</span>
+  <span className='font-semibold capitalize text-xl'>Download Our Apps</span>
   <div className='flex gap-3'>
 
   <a href="/" className='flex items-center px-1 py-2 shadow-[inset_0_0_0_0.5px_white] rounded-md bg-primary-dark md:hover:bg-secondary duration-500'>
@@ -78,7 +78,7 @@ function App() {
     <div id="modalLinksSection" className=" w-full border-t-[1px] md:border-t-0 border-b-[1px] md:border-b-0 py-2 border-white lg:flex lg:gap-6">
     <ModalSection toggleModal={()=>setIsOurCompanyOpen(!isOurCompanyOpen)} isOpen={isOurCompanyOpen} columnList={ourCompanyColumn} headerTitle={'our Company'}/>
     <ModalSection toggleModal={()=>setIsHelpfulLinksOpen(!isHelpfulLinksOpen)} isOpen={isHelpfulLinksOpen} columnList={helpfulLinksColumn} headerTitle={'helpful Links'}/>
-    <div id="officeAddress" className='pt-4 lg:pt-0'>
+    <div id="officeAddress" className='pt-8 lg:pt-0'>
       <div className='flex flex-col gap-3'>
         <h3 className='leading-none text-base uppercase font-semibold lg:text-lg lg:leading-normal'>Office address</h3>
         <p className='text-sm flex items-center gap-2'>

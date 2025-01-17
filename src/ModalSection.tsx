@@ -19,7 +19,7 @@ const ModalSection: React.FC<ModalSectionProps> = ( {toggleModal, isOpen, column
             }
         </span>
       </h3>
-      <ul className={`space-y-3 ${isOpen?'max-h-full':'max-h-0'} overflow-hidden md:max-h-full`}>
+      <ul className={`space-y-5 ${isOpen?'max-h-full':'max-h-0'} overflow-hidden md:max-h-full`}>
         {
             columnList.map((item)=>{
                 return(
