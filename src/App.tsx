@@ -26,8 +26,8 @@ function App() {
   return (
 <footer className="bg-primary flex flex-col gap-5 py-12 px-4 lg:px-8 text-gray-200">
 
-  <div  className='flex flex-col gap-4 md:flex-row md:gap-2 lg:gap-0 md:items-start md:border-b-2 md:border-gray-400 pb-6'>
-    <div id="socialLinksSection" className=" w-full flex flex-col gap-6">
+  <div className='flex flex-col gap-14 md:flex-row md:gap-2 lg:gap-0 md:items-start md:border-b-2 md:border-gray-400 pb-6'>
+    <div id="socialLinksSection" className=" w-full flex flex-col gap-8">
 
 <div id="logo" className='space-y-3'>
 <div>
